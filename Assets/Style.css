@@ -4,7 +4,7 @@ body {
     margin: auto;
     text-align: center;
     font-family: 'Acme';
-    font-size: 50px;
+    font-size: 40px;
     background-color: #004e92; /* For browsers that do not support gradients */
     background-image: linear-gradient(0deg, #000216, #004e92);
 }
@@ -12,26 +12,24 @@ body {
 .takeeasy {
     margin-top: 15px;
     margin-bottom: 10px;
+    font-size: 36px;
 }
 
 .profilepic {
     border-radius: 25%;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
 }
 
 .profilepic:hover {
   transform: scaleX(-1);
 }
 
-.checkyoutube {
-    font-size: 25px;
-}
+
 
 .youtubepic {
+    width: 250px;
     float: left;
-    width: 200px;
-
 }
 
 h1 {
@@ -46,3 +44,23 @@ h1 {
     width: 120px;
     align-items: center;
 }
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    padding-left: 20px;
+  }
