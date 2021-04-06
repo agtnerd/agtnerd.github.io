@@ -27,40 +27,50 @@ body {
 
 
 
-.youtubepic {
-    width: 250px;
-    float: left;
-}
-
 h1 {
     font-size: 150px;
     color: #0056a1;
     margin-top: -15px;
-    margin-bottom: 15px;
-}
-
-.fa {
-    padding: 20px;
-    width: 120px;
-    align-items: center;
+    margin-bottom: 40px;
 }
 
 
+.btn:link, .btn:visited {
+  border-radius: 20px;
+  font-family: 'Acme';
+  font-size: 40px;
+  background-color: #cf0000;
+  text-align: center;
+  display: center;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 35px;
+  }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center
+  .btn:hover, .btn:active {
+    background-color: red;
   }
+
+  .twit:link, .twit:visited {
+    border-radius: 20px;
+    font-family: 'Acme';
+    font-size: 40px;
+    background-color: #006bcf;
+    text-align: center;
+    display: center;
+    width: 40%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor: pointer;
+
+    }
   
-  img {
-    max-width: 100%
-  }
-  
-  .image {
-    flex-basis: 40%
-  }
-  
-  .text {
-    padding-left: 20px;
-  }
+    .twit:hover, .twit:active {
+      background-color: rgb(0, 195, 255);
+    }
