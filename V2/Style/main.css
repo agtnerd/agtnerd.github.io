@@ -70,14 +70,13 @@ span:nth-child(4n-3) { color:#014F86; text-shadow:1px 1px #01497C, 2px 2px #013A
 
 
 .txt1 {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.4;
   color: #696969;
 }
 
 .hov1:hover {
   color: #001e2e;
-  text-decoration: underline;
 }
 
 
@@ -119,7 +118,7 @@ span:nth-child(4n-3) { color:#014F86; text-shadow:1px 1px #01497C, 2px 2px #013A
 }
 
 .div99 {
-  width: 390px;
+  width: 340px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -215,38 +214,23 @@ span:nth-child(4n-3) { color:#014F86; text-shadow:1px 1px #01497C, 2px 2px #013A
 
 
 .btnlnk {
+  height: 40px;
+  color: white;
   width: 100%;
   padding: 10px; 
   margin-right: 10px;
   margin-bottom:10px;
-  font-family: 'Acme';
-  text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
   display: inline-block;
   white-space: nowrap;
-  line-height:1em;
   position:relative;
   outline: none;
   overflow: visible;
   cursor: pointer;
-  border-radius: 4px;
-  -moz-border-radius: 4px; 
-  -webkit-border-radius:4px; 
-  box-shadow:1px 1px 2px 0 #CCCCCC;
-  -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
-  -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+  border-radius: 10px;
+  -moz-border-radius: 10px; 
+  -webkit-border-radius:10px; 
 }
 
-.btnimg {
-  background: url(../images/profile.png) center no-repeat;
- 
-}
-
-.btnclr {
-  border: 1px solid #305875;
-  color: #FBFBFB;
-  background-color: #3D6E97;
-}
-.btnclr:hover {
-  color: #FBFBFB;
-  opacity:0.9; 
+.btnlnk:hover {
+  filter: drop-shadow(0px 0px 10px black);
 }
